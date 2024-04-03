@@ -1,0 +1,160 @@
+/* ！声明字体图标 一定要注意路径的变化 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?l9ih7p');
+    src:  url('../fonts/icomoon.eot?l9ih7p#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?l9ih7p') format('truetype'),
+      url('../fonts/icomoon.woff?l9ih7p') format('woff'),
+      url('../fonts/icomoon.svg?l9ih7p#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color:#f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+    
+}
+
+/* 选择偶数个li */
+.shortcut .fr ul li:nth-child(even) {
+
+    width: 1px;
+    height: 12px;
+    border: 1px solid #666;
+    margin:9px 15px 0;
+    
+
+}
+
+.arrow-icon::after{
+    content: '\e904';
+    margin-left: 6px;
+    font-family: 'icomoon';
+}
+
+/* 头部制作 */
+.header {
+    position: relative;
+    height: 105px;
+    
+    /* background-color: pink; */
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+    /* background-color: skyblue; */
+}
+
+.logo a {
+    display: inline-block;
+    width: 171px;
+    height: 61px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0px;
+    /* color: rgb(0, 0, 0); */
+    /* text-indent: -9999px; */
+    overflow: hidden;
+}
+
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+
+.hotwords a{
+    margin: 0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 60px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+    font-family: 'icomoon';
+}
+
+.shopcar::before {
+    content: '\e908';
+    margin-right: 5px;
+    color: #b1191a;
+}
+
+.shopcar::after {
+    content: '\e906';
+    margin-left: 5px;
+}
+.shopcar .count {
+    position: absolute;
+    top:-5px;
+    left: 105px;
+    height: 14px;
+    line-height: 14px;
+    color: #fff;
+    padding: 0 5px;
+    background-color: #b1191a;
+    border-radius: 7px 7px 7px 0;
+    
+}
