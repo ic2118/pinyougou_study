@@ -308,6 +308,7 @@
     height: 185px;
     margin-top: 20px;
     margin-left: 50px;
+    border-bottom: 1px solid #ccc;
 }
 
 .mod_help dl {
@@ -328,3 +329,21 @@
     margin-bottom: 10px;
 }
 
+.copyright {
+    line-height: 20px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0 3px;
+    /* border-right: 1px solid #666; */
+}
